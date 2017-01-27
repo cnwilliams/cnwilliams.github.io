@@ -1,3 +1,12 @@
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+
+
 h1, h3 {
   font-family: Helvetica, sans-serif;
   text-decoration: none;
@@ -5,12 +14,63 @@ h1, h3 {
   color: gray;
 }
 
+h1.clearfix {
+  clear: both;
+  float: center;
+}
+
 h3 {
   display: block;
 }
 
-img {
-  align: center;
+p {
+  float: center;
+  display: block;
+  width: 450px;
+  text-align: center;
+/*  margin-left: 350px;*/
+  width: 90%;
+  max-width: 40em;
+  margin: 0 auto;
+
+
+}
+
+#icon {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  padding: 20px 0px 0px 20px;
+}
+
+.top-nav {
+
+  display: inline-block;
+  padding: 20px;
+}
+.work-nav, .about-me-nav, .contact-me-nav {
+  margin-right: 60px;
+}
+
+.galaxy {
+  position: center;
+  opacity: .95;
+  height: 300px;
+}
+
+.info-box {
+  padding: 0;
+  font-size: 1.8rem;
+  text-align: center;
+  letter-spacing: .5em;
+  line-height: 6rem;
+  font-weight: 400;
+  color:#404040;
+  background-color: Lavender;
+  width: 100%;
+/*  position: absolute;*/
+
 }
 
 li {
@@ -23,6 +83,21 @@ a {
   color: gray;
 }
 
-div {
+.footer-nav {
+  padding: 20px;
+  margin: 50px 0px 40px 150px;
+  width: 100%;
+}
 
+
+section, .full-width {
+  width: 100%;
+  background: LightGrey;
+}
+
+.wrap {
+  width: 80%;
+  max-width: 80em;
+  margin: 0 auto;
+  padding: 0.2em 0.6em;
 }
