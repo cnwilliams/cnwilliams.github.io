@@ -1,3 +1,45 @@
+.container .col-md-6 .col-md-12 .col-md-3 .row {
+  border: 2px solid black;
+}
+
+body {
+  background-color: gray;
+}
+
+.portrait {
+  max-width: 50%;
+  height: auto;
+  display: block;;
+}
+
+.video-container {
+position: fixed;
+display: block;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -1000;
+transform: translateX(-50%) translateY(-51%);
+background: url('ssets/video/liquid-welcome.png') no-repeat;
+background-size: ;
+transition: 1s opacity;
+}
+
+.about-me-text {
+  padding: 20px;
+}
+
+.contact-row {
+  height: 300px;
+  border: 3px solid black;
+  padding: 20px;
+}
+
+
+/* OLD CSS
 
 body {
   display: flex;
@@ -29,7 +71,7 @@ p {
   width: 450px;
   text-align: center;
 /*  margin-left: 350px;*/
-  width: 90%;
+/*  width: 90%;
   max-width: 40em;
   margin: 0 auto;
 
@@ -69,7 +111,7 @@ p {
   color:#404040;
   background-color: Lavender;
   width: 100%;
-/*  position: absolute;*/
+/*  position: absolute;
 
 }
 
@@ -100,4 +142,4 @@ section, .full-width {
   max-width: 80em;
   margin: 0 auto;
   padding: 0.2em 0.6em;
-}
+}*/

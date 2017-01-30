@@ -1,31 +1,83 @@
 <html>
 <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <title>CW Collection</title>
 </head>
+
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
+
+<!-- header: icon and nav bar (parallax to be added on video later) -->
+  <div class="container header-container">
+     <div class="row header">
+      <!-- start of header container -->
+
+     <div class="col-md-6 icon-top-left">
         icon
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 nav-links-top">
         links
       </div>
-    </div>
 
-    <div class="row">
-      <img class="col-md-12" src="#">
-      large image or video with parallax
-    </div>
+      <!-- <div class="video-container col-md-12">  <!-- start of video container -->
+        <!-- <video class="col-md-12 video-main" preload="true" volume="0" playsinline autoplay  poster="assets/video/liquid-welcome.png">
+          <source src="assets/video/liquid-welcome.mp4" type="video/mp4">
+          <source src="assets/video/liquid-welcome.webm" type="video/webm"> -->
+      <!--     <source src="#.ogv" type="video/ogv"> -->
 
-    <div class="row">
+        <!-- </video>
+ -->
+
+      <!-- </div> <!-- end of video container -->
+  </div>
+<!-- end of header container -->
+</div>
+
+
+
+<!-- initial work section with 3 placholders; sizes md, sm, xs -->
+    <div class="row work-boxes">
       <h3>My Work</h3>
-      <div class="col-md-3 col-md-offset-2">box</div>
-      <div class="col-md-3">box</div>
-      <div class="col-md-3">box</div>
+      <div class="col-md-3 col-md-offset-2 col-sm-4 col-xs-12 work-box-one">
+        <img src="">
+        box</div>
+      <div class="col-md-3 col-xs-12 col-sm-4 work-box">box</div>
+      <div class="col-md-3 col-xs-12 col-sm-4 work-box">box</div>
+    </div>
+
+<!-- about me section; sizes md and sm -->
+  <div class="row">
+    <h3>About me</h3>
+    <div class="col-md-6 col-sm-6 col-xs-12 img-portrait">
+      <img class="img-circle img-responsive center-block portrait" src="assets/imgs/portrait.jpg">
+    </div>
+    <div class="col-md-6 col-sm-6 col-xs-12 about-me-text">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
   </div>
 
+<!-- contact info below (image of a map??) -->
+    <div class="row contact-row">
+      <div class="col-md-6 col-sm-12 contact-info">Contact Info</div>
+      <div class="col-md-6 col-sm-12 contact-submit-box">Contact submit box here</div>
+    </div>
+  </div>
+
+  <footer class="col-md-12">
+    <h5>
+      Made with &hearts; in San Francisco
+    </h5>
+  </footer>
+
+  <script type="text/javascript" src="assets/js/app.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
 </body>
 </html>
