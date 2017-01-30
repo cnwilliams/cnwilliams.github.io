@@ -1,5 +1,7 @@
-// sanity check
-alert("app.js linked.");
+console.log("js linked");
+
+
+
 
 var myWorkObject = [
   {name: "example 1",
@@ -21,18 +23,28 @@ var myWorkObject = [
 
 
 
-for (var i = 0; i < myWorkObject.length; i++){
+function updateWork(){
+  for (var i = 0; i < myWorkObject.length; i++){
 
-  var title = myWorkObject[i].name;
-  var image = myWorkObject[i].picture;
-  var descr = myWorkObject[i].description;
-  var url = myWorkObject[i].link
-  // template text to create image
+    var title = myWorkObject[i].name;
+    var image = myWorkObject[i].picture;
+    var descr = myWorkObject[i].description;
+    var url = myWorkObject[i].link
+    //no closing tag
+    var createUrl = "<a href='" + url + "'>"
+    // var $div = $("<div>", {"class": "work-box col-md-3 center-block"});
 
-  // create title
+    var newBoxComplete =
+    "<div class='work-box col-md-3'>" +
+      createUrl +
+      "<img src='" + image + "'></a>" +
+      "<ul>" +
+      "<li>" + title +  "</li>" +
+      "<li>" + descr + "</li> </div>"
 
-  // create and add decription
-
-  // cratelink
-
+    // $(".work-section").append($div);
+    $(".work-section").appendChild("newBoxComplete");
+  }
 }
+
+updateWork();
