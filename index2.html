@@ -8,97 +8,91 @@
 <body>
 
 <!-- header: icon and nav bar (parallax to be added on video later) -->
-  <div class="container header-container">
-     <div class="row header">
-      <!-- start of header container -->
 
+<!-- start of header container -->
+  <div class="container header-container">
+
+     <div class="row header">
      <div class="col-md-6 icon-top-left">
-        <h4> { c } </h4>
+        <h4 class="psuedo-icon"> { c } </h4>
       </div>
       <div class="col-md-6 text-right nav-links-top">
         <a class="nav-links-top" href=".work-section"> my work</a>
         <a class="nav-links-top" href=".about-section">about me</a>
         <a class="nav-links-top" href=".contact-section">contact</a>
       </div>
-
-      <!-- <div class="video-container col-md-12">  <!-- start of video container -->
-        <!-- <video class="col-md-12 video-main" preload="true" volume="0" playsinline autoplay  poster="assets/video/liquid-welcome.png">
-          <source src="assets/video/liquid-welcome.mp4" type="video/mp4">
-          <source src="assets/video/liquid-welcome.webm" type="video/webm"> -->
-      <!--     <source src="#.ogv" type="video/ogv"> -->
-
-        <!-- </video>
- -->
-
-      <!-- </div> <!-- end of video container -->
+    </div>
   </div>
 <!-- end of header container -->
-</div>
+
+<!-- start of video container (need to fix resonsive sizing; how to hide when xs?) -->
+  <div class="row video-container">
+    <video class="video-main col-md-12 container-fluid" preload="true" volume="0" playsinline autoplay  poster="assets/video/liquid-welcome.png">
+      <source src="assets/video/liquid-welcome.mp4" type="video/mp4">
+      <source src="assets/video/liquid-welcome.webm" type="video/webm">
+    </video>
+  </div>
+<!-- end of video container -->
+
+
 
 
 
 <!-- initial work section with 3 placholders; sizes md, sm, xs -->
-    <div class="row text-center img-center work-section">
-      <h3>My Work</h3>
-      <div class="col-md-3 col-md-offset-2 col-sm-4 col-xs-12 work-box-1">
-
-        box</div>
-      <div class="col-md-3 col-xs-12 col-sm-4 work-box-2">box</div>
-      <div class="col-md-3 col-xs-12 col-sm-4 work-box">box</div>
-    </div>
+<section class="row text-center img-center work-section">
+  <h3>My Work</h3>
+  <div class="col-md-3 col-md-offset-2 col-sm-4 col-xs-12 work-box-1">box</div>
+  <div class="col-md-3 col-xs-12 col-sm-4 work-box-2">box</div>
+  <div class="col-md-3 col-xs-12 col-sm-4 work-box">box</div>
+</section>
 
 <!-- about me section; sizes md and sm -->
-  <div class="row about-section">
+  <section class="row about-section">
     <h3 class="text-center">About me</h3>
     <div class="col-md-6 col-sm-6 col-xs-12 img-portrait">
       <img class="img-circle img-responsive center-block portrait" src="assets/imgs/portrait.jpg">
     </div>
     <div class="col-md-6 col-sm-6 col-xs-12 about-me-text">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="about-me-text">Hi! I'm a student at General Assembly on track to soon become a Full-Stack Developer. I am currently working with HTML, CSS, Bootstrap, and JavaScript (all used to create this page). Always open to new opportunities--feel free to say hello!</p>
     </div>
-  </div>
+  </section>
 
 <!-- contact info below (will add submit box at later time) -->
-    <div class="row img-center text-center contact-section">
+    <section class="row img-center text-center contact-section">
       <div class="col-sm-12 contact-info">
-        <h3>   Contact</h3>
-          <ul>
-            <li>hello.christenwilliams@gmail.com</li>
-            <li>+1 310 936 9438</li>
-          </ul>
+        <h3>Contact</h3>
+        <p class="contact-info">hello.christenwilliams@gmail.com <br>
+          +1 310 936 9438</p>
+        <div class="icons">
+<!--       <img class="footer-icon" src="assets/imgs/icons/phone-icon.jpg"> -->
+          <a href="email:hello.christenwilliams@gmail.com">
+            <img class="icon email-icon" src="assets/imgs/icons/email-icon.png">
+          </a>
+          <a href="linkedin.com/in/christenw">
+            <img class="icon" src="assets/imgs/icons/linkedin-outline.png">
+          </a>
+          <a href="github.com/cnwilliams">
+            <img class="icon" src="assets/imgs/icons/GitHub-Mark-64px.png">
+          </a>
+        </section>
       </div>
       <!-- <div class="col-md-6 col-sm-12 contact-submit-box">Contact submit box here</div> -->
     </div>
+
+
+    <footer class="col-md-12">
+      <h5 class="center-block">
+        Made with <span class="heart">&hearts;</span> in San Francisco
+      </h5>
+    </footer>
   </div>
-
-  <footer class="col-md-12 center-text">
-    <div class="footer-icons pull-right">
-<!--       <img class="footer-icon" src="assets/imgs/icons/phone-icon.jpg"> -->
-      <a href="email:hello.christenwilliams@gmail.com">
-        <img class="footer-icon email-icon" src="assets/imgs/icons/email-icon.png">
-      </a>
-      <a href="linkedin.com/in/christenw">
-        <img class="footer-icon" src="assets/imgs/icons/linkedin-outline.png">
-      </a>
-      <a href="github.com/cnwilliams">
-        <img class="footer-icon" src="assets/imgs/icons/GitHub-Mark-64px.png">
-      </a>
-
-    </div>
-    <h5 class="center-text">
-      Made with <span class="heart">&hearts;</span> in San Francisco
-    </h5>
-  </footer>
+<!-- end of container -->
 
   <script type="text/javascript" src="assets/js/app.js"></script>
   <script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
+  <script src="jquery.js"></script>
 </body>
 </html>
