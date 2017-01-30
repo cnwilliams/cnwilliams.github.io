@@ -1,7 +1,7 @@
 //sanity check
 // alert();
 
-$(document).ready(function() {
+$(document).on('ready', function(){
 
   var myWorkObject = [
     {name: "example 1",

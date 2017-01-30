@@ -1,12 +1,21 @@
 /* General (#98E7ED = blue / #BFE6D4 = green / #FEFCA5 = yellow / #BAB0FB = purple) */
 
 body {
-  background-color: #BFE6D4;
+  background-color: #C7E7D8;
   font-family: Arial, sans-serif;
 }
 
 h3 {
   letter-spacing: .5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  width: 100px;
+  color: grey;
 }
 
 /* Header (work on opacity) */
@@ -37,7 +46,7 @@ h3 {
   top: 40%;
   left: 50%;
   min-width: 50%;
-  min-height: 80%;
+  min-height: 50%;
   max-height: 100%
   width: auto;
   height: auto;
@@ -50,13 +59,19 @@ h3 {
 /* Work */
 
 .work-section {
-  background-color: #98E7ED;
+  padding: 30px;
+  background-color: rgba(999,999,999,.3);
+}
+
+.work-box {
+  padding: 50px;
 }
 
 /* About me */
 
 .about-section {
-  background-color: #FEFCA5;
+  padding-top: 20px;
+  background-color: rgba(999,999,999,.55);
   opacity: 75%;
 }
 
