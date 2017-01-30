@@ -1,0 +1,109 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  <title>{cw} portfolio</title>
+
+</head>
+
+<body>
+
+<!-- header: icon and nav bar (parallax to be added on video later) -->
+
+<!-- start of header container -->
+  <div class="container header-container">
+
+     <div class="row header">
+     <div class="col-md-6 icon-top-left">
+        <h4 class="psuedo-icon"> { c } </h4>
+      </div>
+      <div class="col-md-6 text-right nav-links-top">
+        <a class="nav-links-top" href=".work-section"> my work</a>
+        <a class="nav-links-top" href=".about-section">about me</a>
+        <a class="nav-links-top" href=".contact-section">contact</a>
+      </div>
+    </div>
+  </div>
+<!-- end of header container -->
+
+<!-- start of video container (need to fix resonsive sizing; how to hide when xs?) -->
+  <div class="row video-container">
+    <video class="video-main col-md-12 container-fluid" preload="true" volume="0" playsinline autoplay  poster="assets/video/liquid-welcome.png">
+      <source src="assets/video/liquid-welcome.mp4" type="video/mp4">
+      <source src="assets/video/liquid-welcome.webm" type="video/webm">
+    </video>
+  </div>
+<!-- end of video container -->
+
+
+
+
+
+<!-- initial work section with 3 placholders; sizes md, sm, xs -->
+<section class="row text-center img-center work-section">
+  <h3>My Work</h3>
+  <hr class="small">
+  <div class="col-md-3 col-md-offset-2 col-sm-4 col-xs-12 work-box">
+    <button class="btn btn-default" type="submit">Memory Game</button>
+  </div>
+  <div class="col-md-3 col-xs-12 col-sm-4 work-box">
+    <button class="btn btn-default" type="submit">More info on this Portfolio</button>
+  </div>
+
+  <div class="col-md-3 col-xs-12 col-sm-4 work-box">
+    <button class="btn btn-default" type="submit"> A Collection of JavaScript Challenges</button>
+  </div>
+</section>
+
+<!-- about me section; sizes md and sm -->
+  <section class="row about-section">
+    <h3 class="text-center">About me</h3>
+    <hr class="small">
+    <div class="col-md-6 col-sm-6 col-xs-12 img-portrait">
+      <img class="img-circle img-responsive center-block portrait" src="assets/imgs/portrait.jpg">
+    </div>
+    <div class="col-md-6 col-sm-6 col-xs-12 about-me-text">
+      <p class="about-me-text">Hi! I'm a student at General Assembly on track to soon become a Full-Stack Web Developer. I am currently working with HTML, CSS, Bootstrap, and JavaScript (all used to create this page). Always open to new opportunities--feel free to say hello!</p>
+    </div>
+  </section>
+
+<!-- contact info below (will add submit box at later time) -->
+    <section class="row img-center text-center contact-section">
+      <div class="col-sm-12 contact-info">
+        <h3>Contact</h3>
+        <hr class="small">
+        <p class="contact-info">hello.christenwilliams@gmail.com <br>
+          +1 310 936 9438</p>
+        <div class="icons">
+<!--       <img class="footer-icon" src="assets/imgs/icons/phone-icon.jpg"> -->
+          <a href="email:hello.christenwilliams@gmail.com">
+            <img class="icon email-icon" src="assets/imgs/icons/email-icon.png">
+          </a>
+          <a href="linkedin.com/in/christenw">
+            <img class="icon" src="assets/imgs/icons/linkedin-outline.png">
+          </a>
+          <a href="github.com/cnwilliams">
+            <img class="icon" src="assets/imgs/icons/GitHub-Mark-64px.png">
+          </a>
+        </section>
+      </div>
+      <!-- <div class="col-md-6 col-sm-12 contact-submit-box">Contact submit box here</div> -->
+    </div>
+
+
+    <footer class="col-md-12">
+      <h5 class="center-block">
+        Made with <span class="heart">&hearts;</span> in San Francisco
+      </h5>
+    </footer>
+  </div>
+<!-- end of container -->
+
+  <script type="text/javascript" src="assets/js/app.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="jquery.js"></script>
+</body>
+</html>
